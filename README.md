@@ -30,7 +30,7 @@ So really, I'm hoping that through this tutorial I can learn what these terms an
 
 To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience.
 
-![giphy.gif]("https://media.giphy.com/media/SAAMcPRfQpgyI/giphy.gif")
+![giphy.gif](https://media.giphy.com/media/SAAMcPRfQpgyI/giphy.gif)
 
 ### Materials
 
