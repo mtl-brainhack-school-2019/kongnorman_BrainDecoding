@@ -30,7 +30,7 @@ So really, I'm hoping that through this tutorial I can learn what these terms an
 
 To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience within a computer science context.
 
-![](https://media.giphy.com/media/R5kxSVfg1k0dG/giphy.gif)
+![office_gif](https://media.giphy.com/media/R5kxSVfg1k0dG/giphy.gif)
 
 ### Materials
 
@@ -52,6 +52,7 @@ The main medium to share what I learn will be the Jupyter notebook. To increase 
     - Support Vector Machine 
     - k-Nearest Neighbours
     - Logistic Regression
+    - Convolutional Neural Network (hopefully!)
 
 5. Review results (see what worked, see what didn't, etc.)
 
