@@ -57,7 +57,6 @@ The main medium to share what I learn will be the Jupyter notebook. To increase 
 
 ### Pieces of the Project
 
-- Haxby data set
 - fMRI_crash_course.ipynb
 - ML_Crash_Course.ipynb
 - Brain_Decoding.ipynb
