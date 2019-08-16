@@ -16,13 +16,13 @@ This tutorial will differ from existing tutorials by including the basic foundat
 
 For example, here is a brain decoding tutorial from nilearn:
 
-![ex1.jpg](attachment:ex1.jpg)
+![ex1.jpg](https://i.postimg.cc/8fNXz7vn/ex1.jpg)
 
 The code is perfectly functional and documented, but I'm still left with plenty of questions. For example, why do we need a masker? Actually, *what is* a masker?!
 
 That brings me to the documentation for `NiftiMasker()`:
 
-![ex2.jpg](attachment:ex2.jpg)
+![ex2.jpg](https://i.postimg.cc/Mf5PMzbZ/ex2.jpg)
 
 The first sentence from the documentation is: "Applying a mask to extract time-series from Niimg-like objects." I'm not really any closer to understanding what a mask is, but at least I learned something: that "Niimg-like objects" are a thing, and I also need to learn what those are! 
 
@@ -30,7 +30,7 @@ So really, I'm hoping that through this tutorial I can learn what these terms an
 
 To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience.
 
-![giphy.gif](attachment:giphy.gif)
+![giphy.gif](<iframe src="https://giphy.com/embed/JVagvSmdX5HNe" width="480" height="241" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/the-office-michael-scott-i-understand-nothing-JVagvSmdX5HNe">via GIPHY</a></p>)
 
 ### Materials
 
