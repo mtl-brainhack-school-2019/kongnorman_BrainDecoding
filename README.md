@@ -6,7 +6,7 @@ This is an introductory brain decoding tutorial.
 
 My name is Norman Kong, and in the fall, I will be starting my undergraduate studies in software engineering at McGill University. For awhile now, I have been interested in ML, so when I joined the BrainHack school, my main focus was to gain some practical experience training models. In my opinion, one of the most interesting applications of ML is within the field of neuroscience, so I decided I wanted to try brain decoding, even if I have virtually no neuroscience background. 
 
-Throughout this project, I am hoping to familiarize myself with data science tools such as nilearn and sci-kit learn, as well as open science tools such as Jupyter notebooks and binder.
+Throughout this project, I am hoping to familiarize myself with data science tools such as nilearn, sci-kit learn, as well as open science tools such as Jupyter notebooks and binder.
 
 ### Goal
 
@@ -28,7 +28,7 @@ The first sentence from the documentation is: "Applying a mask to extract time-s
 
 So really, I'm hoping that through this tutorial I can learn what these terms and concepts mean, learn how to use them, and then summerize this information all in one place. 
 
-To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience.
+To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience within a computer science context.
 
 ![giphy.gif](attachment:giphy.gif)
 
@@ -45,7 +45,8 @@ The main medium to share what I learn will be the Jupyter notebook. To increase 
     - Read!!!
 
 3. Find a high quality, preprocessed dataset.
-    - Haxby's 2001 dataset (https://science.sciencemag.org/content/293/5539/2425.long)
+    - Haxby's 2001 block-design fMRI study investigated patterns of response evoked in ventral temporal cortex by faces and multiple categories of objects, such as chairs, shoes, etc. (https://science.sciencemag.org/content/293/5539/2425.long)
+    - Haxby et al. made it available under the terms of the Creative Commons Attribution-Share Alike 3.0 license.
 
 4. Compare several models to form our predictions.
     - Support Vector Machine 
@@ -59,6 +60,7 @@ The main medium to share what I learn will be the Jupyter notebook. To increase 
 - Haxby data set
 - fMRI_crash_course.ipynb
 - ML_Crash_Course.ipynb
+- Brain_Decoding.ipynb
 - Discussion.ipynb
 - requirements.txt
 
