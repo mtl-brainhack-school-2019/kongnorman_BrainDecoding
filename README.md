@@ -16,13 +16,13 @@ This tutorial will differ from existing tutorials by including the basic foundat
 
 For example, here is a brain decoding tutorial from nilearn:
 
-![ex1.jpg](attachment:ex1.jpg)
+[![ex1.jpg](https://i.postimg.cc/x8bwgH1Y/ex1.jpg)](https://postimg.cc/8fNXz7vn)
 
 The code is perfectly functional and documented, but I'm still left with plenty of questions. For example, why do we need a masker? Actually, *what is* a masker?!
 
 That brings me to the documentation for `NiftiMasker()`:
 
-![ex2.jpg](attachment:ex2.jpg)
+[![ex2.jpg](https://i.postimg.cc/G9wZf24D/ex2.jpg)](https://postimg.cc/Mf5PMzbZ)
 
 The first sentence from the documentation is: "Applying a mask to extract time-series from Niimg-like objects." I'm not really any closer to understanding what a mask is, but at least I learned something: that "Niimg-like objects" are a thing, and I also need to learn what those are! 
 
@@ -30,7 +30,7 @@ So really, I'm hoping that through this tutorial I can learn what these terms an
 
 To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience within a computer science context.
 
-![giphy.gif](attachment:giphy.gif)
+![](https://media.giphy.com/media/R5kxSVfg1k0dG/giphy.gif)
 
 ### Materials
 
