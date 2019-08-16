@@ -30,9 +30,7 @@ So really, I'm hoping that through this tutorial I can learn what these terms an
 
 To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience.
 
-![giphy.gif]("https://giphy.com/gifs/the-office-michael-scott-i-understand-nothing-JVagvSmdX5HNe")
-
-<iframe src="https://giphy.com/embed/JVagvSmdX5HNe" width="480" height="241" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/the-office-michael-scott-i-understand-nothing-JVagvSmdX5HNe">via GIPHY</a></p>
+![giphy.gif]("https://media.giphy.com/media/SAAMcPRfQpgyI/giphy.gif")
 
 ### Materials
 
