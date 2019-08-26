@@ -26,7 +26,7 @@ That brings me to the documentation for `NiftiMasker()`:
 
 The first sentence from the documentation is: "Applying a mask to extract time-series from Niimg-like objects." I'm not really any closer to understanding what a mask is, but at least I learned something: that "Niimg-like objects" are a thing, and I also need to learn what those are! 
 
-So really, I'm hoping that through this tutorial I can learn what these terms and concepts mean, learn how to use them, and then summerize this information all in one place. 
+So really, I'm hoping that through this tutorial I can learn what these terms and concepts mean from the many resources online, learn how to use them, and then summerize this information all in one place. 
 
 To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience within a computer science context.
 
@@ -34,7 +34,7 @@ To be clear, this is not to say I'm confused because the documentation/resources
 
 ### Materials
 
-The main medium to share what I learn will be the Jupyter notebook. To increase accessibility, this repository will be binder-compatible. 
+The main medium to share what I learn will be the Jupyter notebook. They are a suitable tool because they are interactive and editable. To increase accessibility, this repository will be binder-compatible. 
 
 ### Main Steps
 
@@ -52,18 +52,23 @@ The main medium to share what I learn will be the Jupyter notebook. To increase 
     - Support Vector Machine 
     - k-Nearest Neighbours
     - Logistic Regression
-    - Convolutional Neural Network (hopefully!)
+    - Convolutional Neural Network 
 
 5. Review results (see what worked, see what didn't, etc.)
 
-### Pieces of the Project
+### The Contents of this Repo
 
-- fMRI_crash_course.ipynb
-- ML_Crash_Course.ipynb
-- Brain_Decoding.ipynb
-- Discussion.ipynb
-- requirements.txt
+- _fMRI_crash_course.md_: A brief introduction to fMRI basics. 
+- _ML_crash_course.ipynb_: A brief introduction to machine learning, and the models used in the analysis.
+- _Brain_Decoding.ipynb_: The brain decoding itself. 
+- _Discussion.ipynb_: A quick discussion of the process (what worked, what didn't). (markdown?)
+- _requirements.txt_: The necessary libraries to run the analysis. 
+
+The intended order of which files to read is:
+
+fMRI_crash_course.md, ML_crash_course.ipynb, Brain_Decoding.ipynb, Discussion.ipynb
 
 
 
 
+TODO: Special thanks to...
