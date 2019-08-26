@@ -26,7 +26,7 @@ That brings me to the documentation for `NiftiMasker()`:
 
 The first sentence from the documentation is: "Applying a mask to extract time-series from Niimg-like objects." I'm not really any closer to understanding what a mask is, but at least I learned something: that "Niimg-like objects" are a thing, and I also need to learn what those are! 
 
-So really, I'm hoping that through this tutorial I can learn what these terms and concepts mean from the many resources online, learn how to use them, and then summerize this information all in one place. 
+So really, I'm hoping that through this tutorial I can learn what these terms and concepts mean from the many resources online, learn how to use them, and then summerize this information all in one place. I hope this will serve as a future introductory resource for newcomers to the field.
 
 To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience within a computer science context.
 
@@ -34,27 +34,24 @@ To be clear, this is not to say I'm confused because the documentation/resources
 
 ### Materials
 
-The main medium to share what I learn will be the Jupyter notebook. They are a suitable tool because they are interactive and editable. To increase accessibility, this repository will be binder-compatible. 
+The main medium to share what I learn will be the Jupyter notebook. They are a suitable tool because they are interactive and editable. To increase accessibility, I am hoping to make this repository binder-compatible and available on NeuroLibre. 
 
 ### Main Steps
 
 1. Learn what the heck fMRI imaging is and how fMRI data is stored.
-    - Read!!!
+    - Read!!
 
-2. Learn how fMRI data is analyzed.
-    - Read!!!
-
-3. Find a high quality, preprocessed dataset.
+2. Find a high quality, preprocessed dataset.
     - Haxby's 2001 block-design fMRI study investigated patterns of response evoked in ventral temporal cortex by faces and multiple categories of objects, such as chairs, shoes, etc. (https://science.sciencemag.org/content/293/5539/2425.long)
     - Haxby et al. made it available under the terms of the Creative Commons Attribution-Share Alike 3.0 license.
 
-4. Compare several models to form our predictions.
+3. Compare several models to form our predictions.
     - Support Vector Machine 
     - k-Nearest Neighbours
     - Logistic Regression
     - Convolutional Neural Network 
 
-5. Review results (see what worked, see what didn't, etc.)
+4. Review results (see what worked, see what didn't, etc.)
 
 ### The Contents of this Repo
 
