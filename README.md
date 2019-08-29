@@ -69,3 +69,7 @@ fMRI_crash_course.md, ML_crash_course.ipynb, Brain_Decoding.ipynb, Discussion.ip
 
 
 TODO: Special thanks to...
+
+@jvogel, @emdupre, @agahkarakuzu
+
+@nnstikov, @pbellec
