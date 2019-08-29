@@ -1,5 +1,7 @@
 # Predicting from Brain Data
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtl-brainhack-school-2019/kongnorman_BrainDecoding/master)
+
 This is an introductory brain decoding tutorial. 
 
 ### Context
