@@ -85,6 +85,7 @@ The intended order of which files to read is:
 - `nilearn`
 - `scikit-learn`
 - Jupyter notebooks and nbextensions
+- Python virtual environments
 
 Here is a short introductory [video]() to get started!
 
