@@ -70,13 +70,13 @@ The intended order of which files to read is:
 3. Brain_Decoding.ipynb
 4. Discussion.ipynb
 
-Open-Science Best Practices:
+### Open-Science Best Practices:
 - Git/GitHub
 - Python
 - Jupyter notebooks
 - binder (ish)
 
-Skills and technologies learned and applied:
+### Skills and technologies learned and applied:
 
 - What fMRI data is and how it is interpreted by the computer
 - What brain decoding is
