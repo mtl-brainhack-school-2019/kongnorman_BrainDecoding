@@ -65,14 +65,33 @@ The main medium to share what I learn will be the Jupyter notebook. They are a s
 
 The intended order of which files to read is:
 
-fMRI_crash_course.md, ML_crash_course.ipynb, Brain_Decoding.ipynb, Discussion.ipynb
+1. fMRI_crash_course.md 
+2. ML_crash_course.ipynb 
+3. Brain_Decoding.ipynb
+4. Discussion.ipynb
+
+Open-Science Best Practices:
+- Git/GitHub
+- Python
+- Jupyter notebooks
+- binder (ish)
+
+Skills and technologies learned and applied:
+
+- What fMRI data is and how it is interpreted by the computer
+- What brain decoding is
+- Basic machine learning models
+- `plotly`
+- `nilearn`
+- `scikit-learn`
+- Jupyter notebooks and nbextensions
+
+Here is a short introductory [video]() to get started!
 
 TODO:
 - add visual of orders of complexity
 - start logistic regression
+- find way to make it binder compatible
+- add license
 
-TODO: Special thanks to...
-
-@jvogel, @emdupre, @agahkarakuzu
-
-@nnstikov, @pbellec
+TODO: Special thanks to: @jvogel, @emdupre, @agahkarakuzu, @nnstikov, @pbellec
