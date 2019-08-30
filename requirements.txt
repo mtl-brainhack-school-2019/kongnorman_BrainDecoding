@@ -21,7 +21,6 @@ entrypoints==0.3
 Flask==1.1.1
 Flask-Compress==1.4.0
 future==0.17.1
-hide-code==0.5.2
 idna==2.8
 ipykernel==5.1.2
 ipython==7.7.0
@@ -86,7 +85,6 @@ terminado==0.8.2
 testpath==0.4.2
 tornado==6.0.3
 traitlets==4.3.2
-voila==0.1.10
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.15.5

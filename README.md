@@ -67,8 +67,9 @@ The intended order of which files to read is:
 
 fMRI_crash_course.md, ML_crash_course.ipynb, Brain_Decoding.ipynb, Discussion.ipynb
 
-
-
+TODO:
+- add visual of orders of complexity
+- start logistic regression
 
 TODO: Special thanks to...
 
