@@ -6,7 +6,7 @@ This repository is my project for the Montreal 2019 BrainHack school. It contain
 
 When I joined the BrainHack school, my focus was to gain practical experience in machine learning. That lead me to try brain decoding, even if I had little knowledge in the subject. I started with an introductory brain decoding tutorial online, but I was quickly lost in the scientific jargon and foreign concepts of neuroscience. There was concise and simple code, but the underlying processes of the operations remained obscure. However, I was undeterred. I simply decided that I would make my own tutorial. I knew that if I could explain what I had learned to others, it would mean that I understood the material well. Thus, my tutorial became my project. It differs from existing tutorials because it includes the basic foundations of fMRI analysis and machine learning for newcomers to the field. My goal was to research the various terms and concepts from different resources, and then summarize them simply in one place. I hope this can serve as a beginner-friendly resource for people who were once in my shoes. 
 
-# Learning Experience
+### Learning Experience
 
 The first step of the project was to learn all I could about machine learning, what fMRI imaging is and how its data is stored/manipulated. For this, I had to read from a lot of different sources, as well as ask a lot of questions to the knowledgeable teaching assistants. As I did my research, I took detailed notes. My next step was to find a dataset that would be appropriate for the tutorial. I ended up choosing the dataset from Haxby’s 2001 [study]() because it is easily accessible through the nilearn library. Finally, it was time to start creating the tutorial itself. After careful consideration, I decided that the best medium for this project would be the Jupyter notebook. Once I figured out which approach I would use (style, structure, etc.), I wrote the base of my tutorial. It then took many hours of editing and formatting in order to clarify and polish the content.
 
@@ -21,7 +21,7 @@ I learned a lot throughout the entire process. Here are the main elements that I
 - What fMRI data is and how it is interpreted by the computer
 - What brain decoding is
 
-# Results
+### Results
 
 The deliverable for this project is this repository, which contains the tutorial. I have three separate notebooks to tackle the main components of the project: 
 
