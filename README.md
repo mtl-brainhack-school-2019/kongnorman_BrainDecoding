@@ -1,98 +1,39 @@
-# Predicting from Brain Data
+### Summary
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtl-brainhack-school-2019/kongnorman_BrainDecoding/master)
+This repository is my project for the Montreal 2019 BrainHack school. It contains four documents that will help you get started with a basic brain decoding workflow. My project is an attempt to contribute to the lack of beginner-friendly resources in the fields of computer and neuroscience. 
 
-This is an introductory brain decoding tutorial. 
+### Project Definition
 
-### Context
+When I joined the BrainHack school, my focus was to gain practical experience in machine learning. That lead me to try brain decoding, even if I had little knowledge in the subject. I started with an introductory brain decoding tutorial online, but I was quickly lost in the scientific jargon and foreign concepts of neuroscience. There was concise and simple code, but the underlying processes of the operations remained obscure. However, I was undeterred. I simply decided that I would make my own tutorial. I knew that if I could explain what I had learned to others, it would mean that I understood the material well. Thus, my tutorial became my project. It differs from existing tutorials because it includes the basic foundations of fMRI analysis and machine learning for newcomers to the field. My goal was to research the various terms and concepts from different resources, and then summarize them simply in one place. I hope this can serve as a beginner-friendly resource for people who were once in my shoes. 
 
-My name is Norman Kong, and in the fall, I will be starting my undergraduate studies in software engineering at McGill University. For awhile now, I have been interested in ML, so when I joined the BrainHack school, my main focus was to gain some practical experience training models. In my opinion, one of the most interesting applications of ML is within the field of neuroscience, so I decided I wanted to try brain decoding, even if I have virtually no neuroscience background. 
+# Learning Experience
 
-Throughout this project, I am hoping to familiarize myself with data science tools such as nilearn, sci-kit learn, as well as open science tools such as Jupyter notebooks and binder.
+The first step of the project was to learn all I could about machine learning, what fMRI imaging is and how its data is stored/manipulated. For this, I had to read from a lot of different sources, as well as ask a lot of questions to the knowledgeable teaching assistants. As I did my research, I took detailed notes. My next step was to find a dataset that would be appropriate for the tutorial. I ended up choosing the dataset from Haxby’s 2001 [study]() because it is easily accessible through the nilearn library. Finally, it was time to start creating the tutorial itself. After careful consideration, I decided that the best medium for this project would be the Jupyter notebook. Once I figured out which approach I would use (style, structure, etc.), I wrote the base of my tutorial. It then took many hours of editing and formatting in order to clarify and polish the content.
 
-### Goal
+I learned a lot throughout the entire process. Here are the main elements that I got to learn about and use: 
 
-My goal is to create an accessible, extensive but easy to understand fMRI brain decoding tutorial for those who are new to the subject. I am hoping that this tutorial will be of high enough quality that it may be shared to the nilearn team, and hopefully help future scientists entering the field. 
-
-This tutorial will differ from existing tutorials by including the basic foundations of fMRI analysis for those who have never worked with it before. The examples I have seen so far contain concise and simple code, but the underlying processes of these operations remain obscure. 
-
-For example, here is a brain decoding tutorial from nilearn:
-
-[![ex1.jpg](https://i.postimg.cc/x8bwgH1Y/ex1.jpg)](https://postimg.cc/8fNXz7vn)
-
-The code is perfectly functional and documented, but I'm still left with plenty of questions. For example, why do we need a masker? Actually, *what is* a masker?!
-
-That brings me to the documentation for `NiftiMasker()`:
-
-[![ex2.jpg](https://i.postimg.cc/G9wZf24D/ex2.jpg)](https://postimg.cc/Mf5PMzbZ)
-
-The first sentence from the documentation is: "Applying a mask to extract time-series from Niimg-like objects." I'm not really any closer to understanding what a mask is, but at least I learned something: that "Niimg-like objects" are a thing, and I also need to learn what those are! 
-
-So really, I'm hoping that through this tutorial I can learn what these terms and concepts mean from the many resources online, learn how to use them, and then summerize this information all in one place. I hope this will serve as a future introductory resource for newcomers to the field.
-
-To be clear, this is not to say I'm confused because the documentation/resources are bad, rather I am confused because I am ignorant. This project is a great way for me to learn more about the field of neuroscience within a computer science context.
-
-![office_gif](https://media.giphy.com/media/R5kxSVfg1k0dG/giphy.gif)
-
-### Materials
-
-The main medium to share what I learn will be the Jupyter notebook. They are a suitable tool because they are interactive and editable. To increase accessibility, I am hoping to make this repository binder-compatible and available on NeuroLibre. 
-
-### Main Steps
-
-1. Learn what the heck fMRI imaging is and how fMRI data is stored.
-    - Read!!
-
-2. Find a high quality dataset that has already been extensively studied.
-    - Haxby's 2001 block-design fMRI study investigated patterns of response evoked in ventral temporal cortex by faces and multiple categories of objects, such as chairs, shoes, etc. (https://science.sciencemag.org/content/293/5539/2425.long)
-    - Haxby et al. made it available under the terms of the Creative Commons Attribution-Share Alike 3.0 license.
-
-3. Compare several models to form our predictions.
-    - Support Vector Machine 
-    - k-Nearest Neighbours
-    - Logistic Regression
-    - Convolutional Neural Network 
-
-4. Review results (see what worked, see what didn't, etc.)
-
-### The Contents of this Repo
-
-- _fMRI_crash_course.md_: A brief introduction to fMRI basics. 
-- _ML_crash_course.ipynb_: A brief introduction to machine learning, and the models used in the analysis.
-- _Brain_Decoding.ipynb_: The brain decoding itself. 
-- _Discussion.ipynb_: A quick discussion of the process (what worked, what didn't). (markdown?)
-- _requirements.txt_: The necessary libraries to run the analysis. 
-
-The intended order of which files to read is:
-
-1. fMRI_crash_course.md 
-2. ML_crash_course.ipynb 
-3. Brain_Decoding.ipynb
-4. Discussion.ipynb
-
-### Open-Science Best Practices:
-- Git/GitHub
-- Python
-- Jupyter notebooks
-- binder (ish)
-
-### Skills and technologies learned and applied:
-
-- What fMRI data is and how it is interpreted by the computer
-- What brain decoding is
 - Basic machine learning models
 - `plotly`
 - `nilearn`
 - `scikit-learn`
-- Jupyter notebooks and nbextensions
+- Jupyter notebooks and `nbextensions`
 - Python virtual environments
+- What fMRI data is and how it is interpreted by the computer
+- What brain decoding is
 
-Here is a short introductory [video]() to get started!
+# Results
 
-TODO:
-- add visual of orders of complexity
-- start logistic regression
-- find way to make it binder compatible
-- add license
+The deliverable for this project is this repository, which contains the tutorial. I have three separate notebooks to tackle the main components of the project: 
 
-TODO: Special thanks to: @jvogel, @emdupre, @agahkarakuzu, @nnstikov, @pbellec
+- _fMRI_crash_course.ipynb_: A high-level introduction to fMRI basics. It covers the bare minimum of what you need to know in neuroscience in order to get through the tutorial. 
+- _ML_crash_course.ipynb_: A thorough introduction to some simple machine learning models and their implementation in sci-kit learn. 
+- _Brain_Decoding.ipynb_: The brain decoding itself. It explains the control flow of the code, but the underlying theory of brain decoding is in the first two notebooks.  
+
+Additionally, I included a _requirements.txt_ file to make this repository binder compatible. 
+
+One of the main goals of this project was to create deliverables based on open-science practices. The very inspiration of the project was because I struggled to learn about something I was interested in due to the way in which it was communicated. So, in an attempt to bridge the gap between those who are new to the subject and those who are specialists, I created this tutorial. In order to make it as accessible as possible, I incorporated these open-science elements in my deliverables:  
+
+- Git/GitHub: A popular platform to easily share coding projects.
+- Python: An easy-to-learn open-source programming language.
+- Jupyter notebooks: An open-source medium to share code transparently.
+- binder (work in progress): A web service that allows you to share Git repositories so that they are highly reproducible.
