@@ -40,18 +40,17 @@ The main medium to share what I learn will be the Jupyter notebook. They are a s
 
 ### Main Steps
 
-
-2. Find a high quality dataset that has already been extensively studied.
+1. Find a high quality dataset that has already been extensively studied.
     - Haxby's 2001 block-design fMRI study investigated patterns of response evoked in ventral temporal cortex by faces and multiple categories of objects, such as chairs, shoes, etc. (https://science.sciencemag.org/content/293/5539/2425.long)
     - Haxby et al. made it available under the terms of the Creative Commons Attribution-Share Alike 3.0 license.
 
-3. Compare several models to form our predictions.
+2. Compare several models to form our predictions.
     - Support Vector Machine 
     - k-Nearest Neighbours
     - Logistic Regression
     - Convolutional Neural Network 
 
-4. Review results (see what worked, see what didn't, etc.)
+3. Review results (see what worked, see what didn't, etc.)
 
 ### The Contents of this Repo
 
@@ -83,13 +82,4 @@ The intended order of which files to read is:
 - Jupyter notebooks and nbextensions
 - Python virtual environments
 
-Here is a short introductory [video]() to get started!
-
-TODO:
-- add a visual for orders of complexity
-- start logistic regression
-- find way to make it binder compatible (NeuroLibre?)
-- add license
-- Inform the nilearn team about the confusion in the dataset on their tutorial. 
-
-TODO: Special thanks to: @jvogel, @emdupre, @agahkarakuzu, @nnstikov, @pbellec
+Here is a short introductory [video](https://youtu.be/8NXdLCt9ltw) to get started!
