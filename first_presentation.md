@@ -1,10 +1,8 @@
 # Predicting from Brain Data
 
-
-DUE DATE: has to be submitted by Tuesday September 3rd. The submission procedure is to create a release of your GitHub project, see "Draft a new release" under "releases".
+Note: this project is delivered in the first release, v1.0.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtl-brainhack-school-2019/kongnorman_BrainDecoding/master)
-
 
 ### Context
 

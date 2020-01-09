@@ -1,3 +1,7 @@
+# Brain Decoding Tutorial
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtl-brainhack-school-2019/kongnorman_BrainDecoding/master)
+
 ### Summary
 
 This repository is my project for the Montreal 2019 BrainHack school. It contains four documents that will help you get started with a basic brain decoding workflow. My project is an attempt to contribute to the lack of beginner-friendly resources in the fields of computer and neuroscience. 
