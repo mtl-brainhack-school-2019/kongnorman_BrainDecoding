@@ -21,7 +21,7 @@ jupyter-plotly-dash==0.3.0
 jupyter-server==0.1.1
 jupyterlab-pygments==0.1.0
 kiwisolver==1.1.0
-lxml==4.4.1
+lxml==4.6.5
 MarkupSafe==1.1.1
 matplotlib==3.1.1
 memory-profiler==0.55.0
