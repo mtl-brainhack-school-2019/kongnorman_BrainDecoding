@@ -33,7 +33,7 @@ nbserverproxy==0.8.8
 nibabel==2.5.0
 nilearn==0.5.2
 notebook==6.0.0
-numpy==1.17.0
+numpy==1.22.0
 pandas==0.25.0
 pandocfilters==1.4.2
 parso==0.5.1
